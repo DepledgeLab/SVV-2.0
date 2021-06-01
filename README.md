@@ -13,6 +13,10 @@ The major annotation files (GFF3 format) are found in the Annotation directory a
 
 - SVV-Forward-2.0.gff3 - GFF3 file denoting all SVV RNAs annotated along the top strand of SVV reference genome
 - SVV-Reverse-2.0.gff3 - GFF3 file denoting all SVV RNAs annotated along the bottom strand of SVV reference genome
+
+Addtional files include the SVV reference genome sequence and SVV2.0 transcriptome file:
+
+- SVV.genome.fasta - original SVV reference genome sequence in FASTA format (Genbank accession NC_002686.2). This version is compatible with BED12 files in IGV.
 - SVV_v2.0_complete.fasta - SVV 2.0 transcriptome file (multi-fasta) - contains all SVV transcripts present in the v2.0 annotation
 
 Note: Users should ensure the header line in the genome fasta file matches the text used in column #1 of the GFF3 files prior to perform alignment and any downstream analyses
@@ -26,7 +30,6 @@ BED12 format files containing Nanopore and Illumina read alignments are found in
 - XXX
 - XXX
 
-- SVV.fasta - original SVV reference genome sequence in FASTA format (Genbank accession NC_002686.2). This version is compatible with BED12 files in IGV.
 
 *Note: these files were generated using nanopore dRNA-Seq datasets basecalled with Guppy v3.6.0
 
