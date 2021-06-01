@@ -1,9 +1,9 @@
 # SVV-2.0
-Refined SVV transcriptome annotation (2.0)
+## Refined SVV transcriptome annotation (2.0)
 
 This repository contains files related to our recent re-annotation of SVV reference genome described here - LinkToBeAdded .
 
-All  Illumina and Nanopore dRNA-Seq datasets associated with this study are available from the ENA under project accession PRJEB42868.
+All  Illumina and Nanopore dRNA-Seq datasets associated with this study are available from the ENA under project accession [ PRJEB42868 ] (https://www.ebi.ac.uk/ena/browser/view/PRJEB42868).
 
 Description of files:
 
