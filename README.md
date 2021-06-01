@@ -25,11 +25,12 @@ Addtional files include the SVV reference genome sequence and SVV2.0 transcripto
 
 BED12 format files containing Nanopore and Illumina read alignments are found in the BED12 folder and comprise the following:
 
-- XXX
-- XXX
-- XXX
-- XXX
-
+- SVV_BSC1-1.genome.sorted.forward.bed
+- SVV_BSC1-1.genome.sorted.reverse.bed
+- SVV_CM0053.genome.sorted.forward.bed
+- SVV_CM0053.genome.sorted.reverse.bed
+- SVV_RM-merged.genome.sorted.forward.bed
+- SVV_RM-merged.genome.sorted.reverse.bed
 
 *Note: these files were generated using nanopore dRNA-Seq datasets basecalled with Guppy v3.6.0
 
