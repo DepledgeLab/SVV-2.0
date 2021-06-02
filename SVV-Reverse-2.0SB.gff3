@@ -1,0 +1,249 @@
+##gff-version 3							
+##sequence-region SVV 1 124784								
+
+SVV	RefSeq	gene	1494	4534	.	-	.	ID=GeneA-1-3;Name=GeneA-1-3
+SVV	RefSeq	mRNA	1494	2552	.	-	.	ID=mRNA.A-1; Parent=GeneA-1-3
+SVV	RefSeq	exon	1494	2552	.	-	.	ID=exon1; Parent=mRNA.A-1
+SVV	RefSeq	CDS	1571	2452	.	-	0	ID=ORFA; Parent=mRNA.A-1; Name=ORFAp
+
+SVV	RefSeq	mRNA	3343	3703	.	-	.	ID=mRNA.1-1; Parent=GeneA-1-3
+SVV	RefSeq	exon	3343	3703	.	-	.	ID=exon1; Parent=mRNA.1-1
+SVV	RefSeq	CDS	3376	3681	.	-	0	ID=ORF1; Parent=mRNA.1-1; Name=ORF1p
+
+SVV	RefSeq	mRNA	3785	4534	.	-	.	ID=mRNA.3-1; Parent=GeneA-1-3
+SVV	RefSeq	exon	3785	4534	.	-	.	ID=exon1; Parent=mRNA.3-1
+SVV	RefSeq	mRNA	3785	4534	.	-	.	ID=mRNA.3-2; Parent=GeneA-1-3
+SVV	RefSeq	exon	4296	4534	.	-	.	ID=exon1; Parent=mRNA.3-2
+SVV	RefSeq	exon	3785	4028	.	-	.	ID=exon2; Parent=mRNA.3-2
+SVV	RefSeq	CDS	3946	4497	.	-	0	ID=ORF3; Parent=mRNA.3-1; Name=ORF3p
+
+SVV	RefSeq	mRNA	3343	4534	.	-	.	ID=mRNA.3-3; Parent=GeneA-1-3
+SVV	RefSeq	exon	3343	4534	.	-	.	ID=exon1; Parent=mRNA.3-3
+SVV	RefSeq	mRNA	1494	4534	.	-	.	ID=mRNA.3-4; Parent=GeneA-1-3
+SVV	RefSeq	exon	1494	4534	.	-	.	ID=exon1; Parent=mRNA.3-4
+
+
+SVV	RefSeq	gene	4641	10551	.	-	.	ID=Gene4-5-6; Name=Gene4-5-6
+
+SVV	RefSeq	mRNA	4641	6202	.	-	.	ID=mRNA.4-1; Parent=Gene4-5-6
+SVV	RefSeq	mRNA	4641	5302	.	-	.	ID=mRNA.4-2; Parent=Gene4-5-6
+SVV	RefSeq	exon	4641	6202	.	-	.	ID=exon1; Parent=mRNA.4-1
+SVV	RefSeq	exon	4641	5302	.	-	.	ID=exon1; Parent=mRNA.4-2
+SVV	RefSeq	CDS	4656	6178	.	-	0	ID=ORF4; Parent=mRNA.4-1; Name=ORF4p
+
+SVV	RefSeq	mRNA	4641	7540	.	-	.	ID=mRNA.5-1; Parent=Gene4-5-6
+SVV	RefSeq	exon	4641	7540	.	-	.	ID=exon1; Parent=mRNA.5-1
+SVV	RefSeq	CDS	6275	7301	.	-	0	ID=ORF5; Parent=mRNA.5-1; Name=ORF5p
+
+#note: no detectable TSS peak for ORF6 - Start of CDS = TSS
+SVV	RefSeq	mRNA	4641	10551	.	-	.	ID=mRNA.6-1; Parent=Gene4-5-6
+SVV	RefSeq	exon	4641	10551	.	-	.	ID=exon1; Parent=mRNA.6-1
+SVV	RefSeq	CDS	7306	10551	.	-	0	ID=ORF6; Parent=mRNA.6-1; Name=ORF6p		
+
+SVV	RefSeq	gene	11370	13300	.	-	.	ID=Gene8; Name=Gene8
+SVV	RefSeq	mRNA	11370	12804	.	-	.	ID=mRNA.8-1; Parent=Gene8
+SVV	RefSeq	mRNA	11370	13300	.	-	.	ID=mRNA.8-2; Parent=Gene8
+SVV	RefSeq	exon	11370	12804	.	-	.	ID=exon1; Parent=mRNA.8-1
+SVV	RefSeq	exon	11370	13300	.	-	.	ID=exon1; Parent=mRNA.8-2
+SVV	RefSeq	CDS	11526	12713	.	-	0	ID=ORF8; Parent=mRNA.8-2; Name=ORF8p
+
+SVV	RefSeq	gene	19932	22511	.	-	.	ID=Gene14; Name=Gene14
+SVV	RefSeq	mRNA	20802	22511	.	-	.	ID=mRNA.14-1; Parent=Gene14
+SVV	RefSeq	mRNA	19932	22511	.	-	.	ID=mRNA.14-2; Parent=Gene14
+SVV	RefSeq	exon	20802	22511	.	-	.	ID=exon1; Parent=mRNA.14-1
+SVV	RefSeq	exon	19932	22511	.	-	.	ID=exon1; Parent=mRNA.14-2
+SVV	RefSeq	CDS	20864	22486	.	-	0	ID=ORF14; Parent=mRNA.14-2; Name=ORF14p
+
+SVV	RefSeq	gene	22672	25738	.	-	.	ID=Gene15-16; Name=Gene15-16
+SVV	RefSeq	mRNA	22672	23927	.	-	.	ID=mRNA.15-1; Parent=Gene15-16
+SVV	RefSeq	exon	22672	23927	.	-	.	ID=exon1; Parent=mRNA.15-1
+#SVV	RefSeq	CDS	22639	23904	.	-	0	ID=ORF15; Parent=mRNA.15-1; Name=ORF15p
+#note: Currently annotated CDS exceeds the borders of the mRNA - excluded from annotation
+
+SVV	RefSeq	mRNA	22672	25177	.	-	.	ID=mRNA.16-1; Parent=Gene15-16
+SVV	RefSeq	exon	22672	25177	.	-	.	ID=exon1; Parent=mRNA.16-1
+SVV	RefSeq	mRNA	22672	25738	.	-	.	ID=mRNA.16-2; Parent=Gene15-16
+SVV	RefSeq	exon	22672	25738	.	-	.	ID=exon1; Parent=mRNA.16-2
+SVV	RefSeq	mRNA	22672	24633	.	-	.	ID=mRNA.16-3; Parent=Gene15-16
+SVV	RefSeq	exon	22672	24633	.	-	.	ID=exon1; Parent=mRNA.16-3
+SVV	RefSeq	CDS	23981	25138	.	-	0	ID=ORF16; Parent=mRNA.16-2; Name=ORF16p
+
+SVV	RefSeq	gene	26805	30140	.	-	.	ID=Gene18-19; Name=Gene18-19
+SVV	RefSeq	mRNA	26805	30140	.	-	.	ID=mRNA.19-1; Parent=Gene18-19
+SVV	RefSeq	exon	26805	30140	.	-	.	ID=exon1; Parent=mRNA.19-1
+SVV	RefSeq	CDS	27765	30116	.	-	0	ID=ORF19; Parent=mRNA.19-1; Name=ORF19p
+SVV	RefSeq	mRNA	26805	27872	.	-	.	ID=mRNA.18-1; Parent=Gene18-19
+SVV	RefSeq	exon	26805	27872	.	-	.	ID=exon1; Parent=mRNA.18-1
+SVV	RefSeq	CDS	26827	27762	.	-	0	ID=ORF18; Parent=mRNA.18-1; Name=ORF18p
+
+SVV	RefSeq	gene	30267	31761	.	-	.	ID=Gene20; Name=Gene20
+SVV	RefSeq	mRNA	30267	31761	.	-	.	ID=mRNA.20-1; Parent=Gene20
+SVV	RefSeq	exon	30267	31761	.	-	.	ID=exon1; Parent=mRNA.20-1
+SVV	RefSeq	CDS	30310	31713	.	-	0	ID=ORF20; Parent=mRNA.20-1; Name=ORF20p
+
+SVV	RefSeq	gene	35958	37659	.	-	.	ID=Gene22.5; Name=Gene22.5
+SVV	RefSeq	mRNA	35958	37659	.	-	.	ID=mRNA.22.5-1; Parent=Gene22.5
+SVV	RefSeq	exon	35958	37659	.	-	.	ID=exon1; Parent=mRNA.22.5-1
+SVV	RefSeq	mRNA	35958	37010	.	-	.	ID=mRNA.22.5-2; Parent=Gene22.5
+SVV	RefSeq	exon	35958	37010	.	-	.	ID=exon1; Parent=mRNA.22.5-2
+SVV	RefSeq	mRNA	37226	37659	.	-	.	ID=mRNA.22.5-3; Parent=Gene22.5
+SVV	RefSeq	exon	37226	37659	.	-	.	ID=exon1; Parent=mRNA.22.5-3
+
+SVV	RefSeq	gene	43731	46010	.	-	.	ID=Gene23-24-25; Name=Gene23-24-25
+SVV	RefSeq	mRNA	43731	46010	.	-	.	ID=mRNA.25-1; Parent=Gene23-24-25
+SVV	RefSeq	exon	43731	46010	.	-	.	ID=exon1; Parent=mRNA.25-1
+SVV	RefSeq	CDS	45521	45982	.	-	0	ID=ORF25; Parent=mRNA.25-1; Name=ORF25p
+SVV	RefSeq	mRNA	43731	45398	.	-	.	ID=mRNA.24-1; Parent=Gene23-24-25
+SVV	RefSeq	exon	43731	45398	.	-	.	ID=exon1; Parent=mRNA.24-1
+SVV	RefSeq	CDS	44597	45241	.	-	0	ID=ORF24; Parent=mRNA.24-1; Name=ORF24p
+SVV	RefSeq	mRNA	43731	46010	.	-	.	ID=mRNA.24-2; Parent=Gene23-24-25
+SVV	RefSeq	mRNA	43731	45398	.	-	.	ID=mRNA.24-3; Parent=Gene23-24-25
+SVV	RefSeq	exon	45701	46010	.	-	.	ID=exon1; Parent=mRNA.24-2
+SVV	RefSeq	exon	44699	45398	.	-	.	ID=exon1; Parent=mRNA.24-3
+SVV	RefSeq	exon	43731	44279	.	-	.	ID=exon2; Parent=mRNA.24-2,mRNA.24-3
+SVV	RefSeq	mRNA	43731	44560	.	-	.	ID=mRNA.23-1; Parent=Gene23-24-25
+SVV	RefSeq	exon	43731	44560	.	-	.	ID=exon1; Parent=mRNA.23-1
+SVV	RefSeq	CDS	43829	44515	.	-	0	ID=ORF23; Parent=mRNA.23-1; Name=ORF23p
+
+SVV	RefSeq	gene	48349	51921	.	-	.	ID=Gene28; Name=Gene28
+SVV	RefSeq	mRNA	48349	51921	.	-	.	ID=mRNA.28-1; Parent=Gene28
+SVV	RefSeq	exon	48349	51921	.	-	.	ID=exon1; Parent=mRNA.28-1
+SVV	RefSeq	mRNA	48349	53076	.	-	.	ID=mRNA.28-2; Parent=Gene28
+SVV	RefSeq	exon	48349	53076	.	-	.	ID=exon1; Parent=mRNA.28-2
+SVV	RefSeq	mRNA	48349	49841	.	-	.	ID=mRNA.28-3; Parent=Gene28
+SVV	RefSeq	exon	48349	49841	.	-	.	ID=exon1; Parent=mRNA.28-3
+SVV	RefSeq	CDS	48395	51913	.	-	0	ID=ORF28; Parent=mRNA.28-1; Name=ORF28p
+
+
+SVV	RefSeq	gene	58383	58717	.	-	.	ID=Gene31.5; Name=Gene31.5
+SVV	RefSeq	mRNA	58383	58717	.	-	.	ID=mRNA.31.5-1; Parent=Gene31.5
+SVV	RefSeq	exon	58383	58717	.	-	.	ID=exon1; Parent=mRNA.31.5-1
+
+SVV	RefSeq	gene	61223	65801	.	-	.	ID=Gene33-35; Name=Gene33-35
+SVV	RefSeq	mRNA	61223	65801	.	-	.	ID=mRNA.35-1; Parent=Gene33-35
+SVV	RefSeq	exon	61223	65801	.	-	.	ID=exon1; Parent=mRNA.35-1
+SVV	RefSeq	mRNA	62256	65801	.	-	.	ID=mRNA.35-2; Parent=Gene33-35
+SVV	RefSeq	exon	62256	65801	.	-	.	ID=exon1; Parent=mRNA.35-2
+SVV	RefSeq	CDS	64891	65637	.	-	0	ID=ORF35; Parent=mRNA.35-1; Name=ORF35p
+SVV	RefSeq	mRNA	61223	64954	.	-	.	ID=mRNA.34-1; Parent=Gene33-35
+SVV	RefSeq	exon	61223	64954	.	-	.	ID=exon1; Parent=mRNA.34-1
+SVV	RefSeq	CDS	63088	64827	.	-	0	ID=ORF34; Parent=mRNA.34-1; Name=ORF34p
+SVV	RefSeq	mRNA	61223	63096	.	-	.	ID=mRNA.33-1; Parent=Gene33-35
+SVV	RefSeq	exon	61223	63096	.	-	.	ID=exon1; Parent=mRNA.33-1
+SVV	RefSeq	CDS	61291	63057	.	-	0	ID=ORF33; Parent=mRNA.33-1; Name=ORF33p
+SVV	RefSeq	mRNA	61223	62255	.	-	.	ID=mRNA.33.5-1; Parent=Gene33-35
+SVV	RefSeq	exon	61223	62255	.	-	.	ID=exon1; Parent=mRNA.33.5-1
+SVV	RefSeq	CDS	61291	62181	.	-	0	ID=ORF33.5; Parent=mRNA.33.5-1; Name=ORF33.5p
+
+SVV	RefSeq	gene	68906	71105	.	-	.	ID=Gene38; Name=Gene38
+SVV	RefSeq	mRNA	68906	71105	.	-	.	ID=mRNA.38-1; Parent=Gene38
+SVV	RefSeq	exon	68906	71105	.	-	.	ID=exon1; Parent=mRNA.38-1
+SVV	RefSeq	mRNA	69436	71105	.	-	.	ID=mRNA.38-2; Parent=Gene38
+SVV	RefSeq	exon	69436	71105	.	-	.	ID=exon1; Parent=mRNA.38-2
+SVV	RefSeq	CDS	69458	71059	.	-	0	ID=ORF38; Parent=mRNA.38-1; Name=ORF38p
+
+SVV	RefSeq	gene	72619	76250	.	-	.	ID=Gene38.5; Name=Gene38.5
+SVV	RefSeq	mRNA	72619	76250	.	-	.	ID=mRNA.38.5-1; Parent=Gene38.5
+SVV	RefSeq	exon	72619	76250	.	-	.	ID=exon1; Parent=mRNA.38.5-1
+
+SVV	RefSeq	gene	77446	83057	.	-	.	ID=Gene42-45; Name=Gene42-45
+SVV	RefSeq	mRNA	77446	83057	.	-	.	ID=mRNA.42-1; Parent=Gene42-45
+SVV	RefSeq	exon	77446	83057	.	-	.	ID=exon1; Parent=mRNA.42-1
+SVV	RefSeq	mRNA	77446	83057	.	-	.	ID=mRNA.42-2; Parent=Gene42-45
+SVV	RefSeq	exon	82017	83057	.	-	.	ID=exon1; Parent=mRNA.42-2
+SVV	RefSeq	exon	77446	78650	.	-	.	ID=exon2; Parent=mRNA.42-2
+SVV	RefSeq	CDS	82017	82814	.	-	0	ID=ORF42; Parent=mRNA.42-2; Name=ORF42p
+SVV	RefSeq	CDS	77466	78650	.	-	0	ID=ORF42; Parent=mRNA.42-2; Name=ORF42p	
+
+SVV	RefSeq	gene	86873	89966	.	-	.	ID=Gene50; Name=Gene50
+SVV	RefSeq	mRNA	86873	89966	.	-	.	ID=mRNA.50-1; Parent=Gene50
+SVV	RefSeq	exon	86873	89966	.	-	.	ID=exon1; Parent=mRNA.50-1	
+SVV	RefSeq	mRNA	86873	88297	.	-	.	ID=mRNA.50-2; Parent=Gene50
+SVV	RefSeq	exon	86873	88297	.	-	.	ID=exon1; Parent=mRNA.50-2
+SVV	RefSeq	CDS	86982	88301	.	-	0	ID=ORF50; Parent=mRNA.50-1; Name=ORF50p
+
+SVV	RefSeq	gene	92787	96527	.	-	.	ID=Gene53-54; Name=Gene53-54
+SVV	RefSeq	mRNA	92787	94179	.	-	.	ID=mRNA.53-1; Parent=Gene53-54
+SVV	RefSeq	exon	92787	94179	.	-	.	ID=exon1; Parent=mRNA.53-1
+SVV	RefSeq	mRNA	92787	93801	.	-	.	ID=mRNA.53-2; Parent=Gene53-54
+SVV	RefSeq	exon	92787	93801	.	-	.	ID=exon1; Parent=mRNA.53-2
+SVV	RefSeq	mRNA	93216	94179	.	-	.	ID=mRNA.53-3; Parent=Gene53-54
+SVV	RefSeq	exon	93216	94179	.	-	.	ID=exon1; Parent=mRNA.53-3
+SVV	RefSeq	mRNA	93216	93801	.	-	.	ID=mRNA.53-4; Parent=Gene53-54
+SVV	RefSeq	exon	93216	93801	.	-	.	ID=exon4; Parent=mRNA.53-4
+SVV	RefSeq	CDS	93243	94157	.	-	0	ID=ORF53; Parent=mRNA.53-1; Name=ORF53p
+
+SVV	RefSeq	mRNA	92787	96527	.	-	.	ID=mRNA.54-1; Parent=Gene53-54
+SVV	RefSeq	exon	92787	96527	.	-	.	ID=exon1; Parent=mRNA.54-1
+SVV	RefSeq	mRNA	92787	95962	.	-	.	ID=mRNA.54-2; Parent=Gene53-54
+SVV	RefSeq	exon	92787	95962	.	-	.	ID=exon1; Parent=mRNA.54-2
+SVV	RefSeq	mRNA	93216	96527	.	-	.	ID=mRNA.54-3; Parent=Gene53-54
+SVV	RefSeq	exon	93216	96527	.	-	.	ID=exon1; Parent=mRNA.54-3
+SVV	RefSeq	mRNA	93216	95962	.	-	.	ID=mRNA.54-4; Parent=Gene53-54
+SVV	RefSeq	exon	93216	95962	.	-	.	ID=exon4; Parent=mRNA.54-4
+SVV	RefSeq	CDS	94048	96255	.	-	0	ID=ORF54; Parent=mRNA.54-1; Name=ORF54p
+
+SVV	RefSeq	gene	99125	101823	.	-	.	ID=Gene57-60; Name=Gene57-60
+SVV	RefSeq	mRNA	99125	101823	.	-	.	ID=mRNA.60-1; Parent=Gene57-60
+SVV	RefSeq	exon	99125	101823	.	-	.	ID=exon1; Parent=mRNA.60-1
+SVV	RefSeq	mRNA	99125	101823	.	-	.	ID=mRNA.60-2; Parent=Gene57-60
+SVV	RefSeq	mRNA	99125	101823	.	-	.	ID=mRNA.60-3; Parent=Gene57-60
+SVV	RefSeq	exon	101803	101823	.	-	.	ID=exon1; Parent=mRNA.60-2
+SVV	RefSeq	exon	101768	101823	.	-	.	ID=exon1; Parent=mRNA.60-3
+SVV	RefSeq	exon	99125	100983	.	-	.	ID=exon2; Parent=mRNA.60-2,mRNA.60-3
+SVV	RefSeq	CDS	101210	101737	.	-	0	ID=ORF60; Parent=mRNA.60-1; Name=ORF60p
+
+SVV	RefSeq	mRNA	99125	101371	.	-	.	ID=mRNA.59-1; Parent=Gene57-60
+SVV	RefSeq	exon	99125	101371	.	-	.	ID=exon1; Parent=mRNA.59-1
+SVV	RefSeq	CDS	100404	101306	.	-	0	ID=ORF59; Parent=mRNA.59-1; Name=ORF59p
+
+SVV	RefSeq	mRNA	99125	100749	.	-	.	ID=mRNA.58-1; Parent=Gene57-60
+SVV	RefSeq	exon	99125	100749	.	-	.	ID=exon1; Parent=mRNA.58-1
+SVV	RefSeq	CDS	99779	100390	.	-	0	ID=ORF58; Parent=mRNA.58-1; Name=ORF58p
+
+SVV	RefSeq	mRNA	99125	99957	.	-	.	ID=mRNA.57-1; Parent=Gene57-60
+SVV	RefSeq	exon	99125	99957	.	-	.	ID=exon1; Parent=mRNA.57-1
+SVV	RefSeq	CDS	99564	99782	.	-	0	ID=ORF57; Parent=mRNA.57-1; Name=ORF57p
+
+SVV	RefSeq	gene	102817	104462	.	-	.	ID=Gene61; Name=Gene61
+SVV	RefSeq	mRNA	102817	104462	.	-	.	ID=mRNA.61-1; Parent=Gene61
+SVV	RefSeq	exon	102817	104462	.	-	.	ID=exon1; Parent=mRNA.61-1
+SVV	RefSeq	mRNA	102817	103366	.	-	.	ID=mRNA.61-2; Parent=Gene61
+SVV	RefSeq	exon	102817	103366	.	-	.	ID=exon1; Parent=mRNA.61-2
+SVV	RefSeq	CDS	102915	104426	.	-	0	ID=ORF61; Parent=mRNA.61-1; Name=ORF61p
+
+SVV	RefSeq	gene	105103	109160	.	-	.	ID=Gene62; Name=Gene62
+SVV	RefSeq	mRNA	105103	109160	.	-	.	ID=mRNA.62-1; Parent=Gene62
+SVV	RefSeq	exon	105103	109160	.	-	.	ID=exon1; Parent=mRNA.62-1
+SVV	RefSeq	CDS	105265	109104	.	-	0	ID=ORF62; Parent=mRNA.62-1; Name=ORF62p
+
+SVV	RefSeq	gene	112118	115342	.	-	.	ID=Gene65; Name=Gene65
+SVV	RefSeq	mRNA	112118	115342	.	-	.	ID=mRNA.65-1; Parent=Gene65
+SVV	RefSeq	exon	112118	115342	.	-	.	ID=exon1; Parent=mRNA.65-1
+SVV	RefSeq	mRNA	112118	115342	.	-	.	ID=mRNA.65-2; Parent=Gene65
+SVV	RefSeq	mRNA	112118	115342	.	-	.	ID=mRNA.65-3; Parent=Gene65
+SVV	RefSeq	exon	113415	115342	.	-	.	ID=exon1; Parent=mRNA.65-2,mRNA.65-3
+SVV	RefSeq	exon	112118	113220	.	-	.	ID=exon2; Parent=mRNA.65-2
+SVV	RefSeq	exon	113114	113220	.	-	.	ID=exon2; Parent=mRNA.65-3
+SVV	RefSeq	exon	112118	112360	.	-	.	ID=exon3; Parent=mRNA.65-3
+SVV	RefSeq	mRNA	112118	112628	.	-	.	ID=mRNA.65-4; Parent=Gene65
+SVV	RefSeq	exon	112118	112628	.	-	.	ID=exon1; Parent=mRNA.65-4
+SVV	RefSeq	mRNA	112118	112324	.	-	.	ID=mRNA.65-5; Parent=Gene65
+SVV	RefSeq	exon	112118	112324	.	-	.	ID=exon1; Parent=mRNA.65-5
+SVV	RefSeq	CDS	112361	112699	.	-	0	ID=ORF65; Parent=mRNA.65-1; Name=ORF65p
+
+SVV	RefSeq	gene	117436	118125	.	-	.	ID=Gene64; Name=Gene64
+SVV	RefSeq	mRNA	117436	118125	.	-	.	ID=mRNA.64-1; Parent=Gene64
+SVV	RefSeq	exon	117436	118125	.	-	.	ID=exon1; Parent=mRNA.64-1
+SVV	RefSeq	mRNA	117436	117933	.	-	.	ID=mRNA.64-2; Parent=Gene64
+SVV	RefSeq	exon	117436	117933	.	-	.	ID=exon1; Parent=mRNA.64-2
+SVV	RefSeq	CDS	117491	118054	.	-	0	ID=ORF64; Parent=mRNA.64-1; Name=ORF64p
+
+SVV	RefSeq	gene	118207	119226	.	-	.	ID=Gene63; Name=Gene63
+SVV	RefSeq	mRNA	118207	119226	.	-	.	ID=mRNA.63-1; Parent=Gene63
+SVV	RefSeq	exon	118207	119226	.	-	.	ID=exon1; Parent=mRNA.63-1
+SVV	RefSeq	mRNA	118207	119139	.	-	.	ID=mRNA.63-2; Parent=Gene63
+SVV	RefSeq	exon	118207	119139	.	-	.	ID=exon1; Parent=mRNA.63-2
+SVV	RefSeq	mRNA	118207	118746	.	-	.	ID=mRNA.63-3; Parent=Gene63
+SVV	RefSeq	exon	118207	118746	.	-	.	ID=exon1; Parent=mRNA.63-3
+SVV	RefSeq	CDS	118276	119061	.	-	0	ID=ORF63; Parent=mRNA.63-1; Name=ORF63p
