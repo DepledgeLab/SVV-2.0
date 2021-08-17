@@ -237,7 +237,7 @@ SVV	RefSeq	mRNA	117436	118125	.	-	.	ID=mRNA.64-1; Parent=Gene64
 SVV	RefSeq	exon	117436	118125	.	-	.	ID=exon1; Parent=mRNA.64-1
 SVV	RefSeq	mRNA	117436	117933	.	-	.	ID=mRNA.64-2; Parent=Gene64
 SVV	RefSeq	exon	117436	117933	.	-	.	ID=exon1; Parent=mRNA.64-2
-SVV	RefSeq	CDS	117491	118054	.	-	0	ID=ORF64; Parent=mRNA.64-1; Name=ORF64p
+SVV	RefSeq	CDS	117491	118108	.	-	0	ID=ORF64; Parent=mRNA.64-1; Name=ORF64p
 
 SVV	RefSeq	gene	118207	119226	.	-	.	ID=Gene63; Name=Gene63
 SVV	RefSeq	mRNA	118207	119226	.	-	.	ID=mRNA.63-1; Parent=Gene63

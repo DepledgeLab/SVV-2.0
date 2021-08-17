@@ -79,10 +79,10 @@ SVV	RefSeq	CDS	19888	20775	.	+	0	ID=ORF13; Parent=mRNA.13-1; Name=ORF13p
 
 SVV	RefSeq	direct_repeat	22203	22381	.	+	.	ID=id-NC_002686.2:22203..22381;Note=reiteration 2;gbkey=repeat_region;rpt_type=direct
 
-#please check 13.5 - has no TSS
 SVV	RefSeq	gene	20881	22678	.	+	.	ID=Gene13.5; Name=Gene13.5
 SVV	RefSeq	mRNA	20881	22678	.	+	.	ID=mRNA.13.5-1; Parent=Gene13.5
 SVV	RefSeq	exon	20881	22678	.	+	.	ID=exon1; Parent=mRNA.13.5-1
+#note: RNA13.5 has no detected TSS peak inferred from HOMER. This one was assigned manually.
 
 SVV	RefSeq	gene	24888	26798	.	+	.	ID=Gene17; Name=Gene17
 SVV	RefSeq	mRNA	24888	26798	.	+	.	ID=mRNA.17-1; Parent=Gene17
@@ -108,8 +108,7 @@ SVV	RefSeq	exon	31896	34164	.	+	.	ID=exon1; Parent=mRNA.21-5
 SVV	RefSeq	exon	31896	34539	.	+	.	ID=exon1; Parent=mRNA.21-6
 
 SVV	RefSeq	CDS	31933	35013	.	+	0	ID=ORF21; Parent=mRNA.21-1; Name=ORF21p 
-
-#pORF21 in Genbank is too long on 5' end -> now took the first Met that is inframe and within the transcript
+#note: pORF21 annotation in Genbank is exceeds the 5' end -> first in-frame Methione that falls within the transcript is used to define CDS
 
 SVV	RefSeq	gene	35137	44230	.	+	.	ID=Gene22; Name=Gene22
 SVV	RefSeq	mRNA	35137	44230	.	+	.	ID=mRNA.22-1; Parent=Gene22
@@ -120,6 +119,7 @@ SVV	RefSeq	mRNA	35796	36930	.	+	.	ID=mRNA.22-5; Parent=Gene22
 SVV	RefSeq	mRNA	35137	39830	.	+	.	ID=mRNA.22-6; Parent=Gene22
 SVV	RefSeq	mRNA	37198	38372	.	+	.	ID=mRNA.22-7; Parent=Gene22
 SVV	RefSeq	mRNA	42509	43825	.	+	.	ID=mRNA.22-8; Parent=Gene22
+#note: RNA22-5 and RNA22-7 have no TSS peak identified through HOMER. These were assigned manually. 
 
 SVV	RefSeq	exon	35137	44230	.	+	.	ID=exon1; Parent=mRNA.22-1
 SVV	RefSeq	exon	42509	44230	.	+	.	ID=exon1; Parent=mRNA.22-2
@@ -231,25 +231,17 @@ SVV	RefSeq	exon	92188	93210	.	+	.	ID=exon1; Parent=mRNA.52-2
 SVV	RefSeq	CDS	88310	90760	.	+	0	ID=ORF51; Parent=mRNA.51-1; Name=ORF51p
 SVV	RefSeq	CDS	90877	93174	.	+	0	ID=ORF52; Parent=mRNA.52-1; Name=ORF52p	
 
-SVV	Dan	gene	96160	98930	.	+	.	ID=Gene55; Name=Gene55
-SVV	Dan	mRNA	96160	98930	.	+	.	ID=mRNA.55-1; Parent=Gene55
-SVV	Dan	exon	96160	98930	.	+	.	ID=exon1; Parent=mRNA.55-1
-SVV	Dan	CDS	96290	98899	.	+	0	ID=ORF55; Parent=mRNA.55-1; Name=ORF55p
+SVV	RefSeq	gene	96160	98930	.	+	.	ID=Gene55; Name=Gene55
+SVV	RefSeq	mRNA	96160	98930	.	+	.	ID=mRNA.55-1; Parent=Gene55
+SVV	RefSeq	exon	96160	98930	.	+	.	ID=exon1; Parent=mRNA.55-1
+SVV	RefSeq	CDS	96290	98899	.	+	0	ID=ORF55; Parent=mRNA.55-1; Name=ORF55p
 
-SVV	Dan	gene	98963	99568	.	+	.	ID=Gene56; Name=Gene56
-SVV	Dan	mRNA	98963	99568	.	+	.	ID=mRNA.56-1; Parent=Gene56
-SVV	Dan	exon	98963	99568	.	+	.	ID=exon1; Parent=mRNA.56-1
-SVV	Dan	CDS	98971	99534	.	+	0	ID=ORF56; Parent=mRNA.56-1; Name=ORF56p
+SVV	RefSeq	gene	98963	99568	.	+	.	ID=Gene56; Name=Gene56
+SVV	RefSeq	mRNA	98963	99568	.	+	.	ID=mRNA.56-1; Parent=Gene56
+SVV	RefSeq	exon	98963	99568	.	+	.	ID=exon1; Parent=mRNA.56-1
+SVV	RefSeq	CDS	98971	99534	.	+	0	ID=ORF56; Parent=mRNA.56-1; Name=ORF56p
 
-#need to work on checking VLT coordinates with new run
-SVV	RefSeq	mRNA	99809	105106	.	+	.	ID=mRNA.VLT-7; Parent=VLT
-SVV	RefSeq	exon	99809	99912	.	+	.	ID=exon1; Parent=mRNA.VLT-7
-SVV	RefSeq	exon	102680	102794	.	+	.	ID=exon2; Parent=mRNA.VLT-7
-SVV	RefSeq	exon	103685	103798	.	+	.	ID=exon3; Parent=mRNA.VLT-7
-SVV	RefSeq	exon	104235	104406	.	+	.	ID=exon4; Parent=mRNA.VLT-7
-SVV	RefSeq	exon	104624	104700	.	+	.	ID=exon5; Parent=mRNA.VLT-7
-SVV	RefSeq	exon	104895	105106	.	+	.	ID=exon6; Parent=mRNA.VLT-7
-
+#note: many VLT isoforms, here "core" is used.
 SVV	RefSeq	mRNA	102671	105106	.	+	.	ID=mRNA.VLT-38;Parent=VLT
 SVV	RefSeq	exon	102671	102794	.	+	.	ID=exon1;Parent=mRNA.VLT-38
 SVV	RefSeq	exon	103685	103798	.	+	.	ID=exon2;Parent=mRNA.VLT-38
@@ -258,25 +250,25 @@ SVV	RefSeq	exon	104624	104700	.	+	.	ID=exon4;Parent=mRNA.VLT-38
 SVV	RefSeq	exon	104875	105106	.	+	.	ID=exon5;Parent=mRNA.VLT-38
 
 
-SVV	Dan	gene	110325	111344	.	+	.	ID=Gene63; Name=Gene63
-SVV	Dan	mRNA	110325	111344	.	+	.	ID=mRNA.63-1; Parent=Gene63
-SVV	Dan	mRNA	110412	111344	.	+	.	ID=mRNA.63-2; Parent=Gene63
-SVV	Dan	mRNA	110805	111344	.	+	.	ID=mRNA.63-3; Parent=Gene63
-SVV	Dan	exon	110325	111344	.	+	.	ID=exon1; Parent=mRNA.63-1
-SVV	Dan	exon	110412	111344	.	+	.	ID=exon1; Parent=mRNA.63-2
-SVV	Dan	exon	110805	111344	.	+	.	ID=exon1; Parent=mRNA.63-3
-SVV	Dan	CDS	110405	111275	.	+	0	ID=ORF63; Parent=mRNA.63-1; Name=ORF63p
+SVV	RefSeq	gene	110325	111344	.	+	.	ID=Gene63; Name=Gene63
+SVV	RefSeq	mRNA	110325	111344	.	+	.	ID=mRNA.63-1; Parent=Gene63
+SVV	RefSeq	mRNA	110412	111344	.	+	.	ID=mRNA.63-2; Parent=Gene63
+SVV	RefSeq	mRNA	110805	111344	.	+	.	ID=mRNA.63-3; Parent=Gene63
+SVV	RefSeq	exon	110325	111344	.	+	.	ID=exon1; Parent=mRNA.63-1
+SVV	RefSeq	exon	110412	111344	.	+	.	ID=exon1; Parent=mRNA.63-2
+SVV	RefSeq	exon	110805	111344	.	+	.	ID=exon1; Parent=mRNA.63-3
+SVV	RefSeq	CDS	110490	111275	.	+	0	ID=ORF63; Parent=mRNA.63-1; Name=ORF63p
 
-SVV	Dan	gene	111426	112384	.	+	.	ID=Gene64; Name=Gene64
-SVV	Dan	mRNA	111426	112115	.	+	.	ID=mRNA.64-1; Parent=Gene64
-SVV	Dan	mRNA	111623	112115	.	+	.	ID=mRNA.64-2; Parent=Gene64
+SVV	RefSeq	gene	111426	112384	.	+	.	ID=Gene64; Name=Gene64
+SVV	RefSeq	mRNA	111426	112115	.	+	.	ID=mRNA.64-1; Parent=Gene64
+SVV	RefSeq	mRNA	111623	112115	.	+	.	ID=mRNA.64-2; Parent=Gene64
 SVV	RefSeq	mRNA	111426	112384	.	+	.	ID=mRNA.64-3; Parent=Gene64
 SVV	RefSeq	mRNA	112181	112384	.	+	.	ID=mRNA.64.5-1; Parent=Gene64	
-SVV	Dan	exon	111426	112115	.	+	.	ID=exon1; Parent=mRNA.64-1
-SVV	Dan	exon	111623	112115	.	+	.	ID=exon1; Parent=mRNA.64-2
+SVV	RefSeq	exon	111426	112115	.	+	.	ID=exon1; Parent=mRNA.64-1
+SVV	RefSeq	exon	111623	112115	.	+	.	ID=exon1; Parent=mRNA.64-2
 SVV	RefSeq	exon	111426	112384	.	+	.	ID=exon1; Parent=mRNA.64-3
-SVV	RefSew	exon	112181	112384	.	+	.	ID=exon1; Parent=mRNA.64.5-1
-SVV	Dan	CDS	111443	112060	.	+	0	ID=ORF64; Parent=mRNA.64-1; Name=ORF64p
+SVV	RefSeq	exon	112181	112384	.	+	.	ID=exon1; Parent=mRNA.64.5-1
+SVV	RefSeq	CDS	111443	112060	.	+	0	ID=ORF64; Parent=mRNA.64-1; Name=ORF64p
 
 SVV	RefSeq	gene	112869	117433	.	+	.	ID=Gene66-67-68; Name=Gene66-67-68
 SVV	RefSeq	mRNA	112869	117433	.	+	.	ID=mRNA.66-1; Parent=Gene66-67-68
