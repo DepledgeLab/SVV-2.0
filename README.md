@@ -35,3 +35,7 @@ BED12 format files containing Nanopore and Illumina read alignments are found in
 
 *Note: these files were generated using nanopore dRNA-Seq datasets basecalled with Guppy v3.6.0
 
+### CDS_Differences-Delta-vs-Delta-EMC1 directory: ###
+
+These files contain nucleotide and amino acid sequences for coding domains (CDS) of named ORFs in which differences are observed between the SVV Delta and Delta-EMC1 variants (see Supplementary Table - Description of coding differences between Delta and Delta-EMC1.xlsx)
+
