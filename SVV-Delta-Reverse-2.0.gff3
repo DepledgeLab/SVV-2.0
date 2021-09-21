@@ -22,18 +22,16 @@ SVV-Delta	RefSeq	exon	3343	4534	.	-	.	ID=exon1; Parent=mRNA.3-3
 SVV-Delta	RefSeq	mRNA	1494	4534	.	-	.	ID=mRNA.3-4; Parent=GeneA-1-3
 SVV-Delta	RefSeq	exon	1494	4534	.	-	.	ID=exon1; Parent=mRNA.3-4
 
-
 SVV-Delta	RefSeq	gene	4641	10551	.	-	.	ID=Gene4-5-6; Name=Gene4-5-6
-
 SVV-Delta	RefSeq	mRNA	4641	6202	.	-	.	ID=mRNA.4-1; Parent=Gene4-5-6
 SVV-Delta	RefSeq	mRNA	4641	5302	.	-	.	ID=mRNA.4-2; Parent=Gene4-5-6
 SVV-Delta	RefSeq	exon	4641	6202	.	-	.	ID=exon1; Parent=mRNA.4-1
 SVV-Delta	RefSeq	exon	4641	5302	.	-	.	ID=exon1; Parent=mRNA.4-2
-SVV-Delta	RefSeq	CDS	4656	6178	.	-	0	ID=ORF4; Parent=mRNA.4-1; Name=ORF4p
+SVV-Delta	RefSeq	CDS	4766	6178	.	-	0	ID=ORF4; Parent=mRNA.4-1; Name=ORF4p
 
 SVV-Delta	RefSeq	mRNA	4641	7540	.	-	.	ID=mRNA.5-1; Parent=Gene4-5-6
 SVV-Delta	RefSeq	exon	4641	7540	.	-	.	ID=exon1; Parent=mRNA.5-1
-SVV-Delta	RefSeq	CDS	6275	7301	.	-	0	ID=ORF5; Parent=mRNA.5-1; Name=ORF5p
+SVV-Delta	RefSeq	CDS	6288	7301	.	-	0	ID=ORF5; Parent=mRNA.5-1; Name=ORF5p
 
 #note: no detectable TSS peak for ORF6 - Start of CDS = TSS
 SVV-Delta	RefSeq	mRNA	4641	10551	.	-	.	ID=mRNA.6-1; Parent=Gene4-5-6

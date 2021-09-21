@@ -29,7 +29,7 @@ SVV-Delta	RefSeq	exon	10570	11371	.	+	.	ID=exon2; Parent=mRNA.7-1,mRNA.7-2
 SVV-Delta	RefSeq	exon	10465	11371	.	+	.	ID=exon1; Parent=mRNA.7-3
 SVV-Delta	RefSeq	exon	10570	11371	.	+	.	ID=exon1; Parent=mRNA.7-4
 SVV-Delta	RefSeq	exon	10735	11371	.	+	.	ID=exon1; Parent=mRNA.7-5
-SVV-Delta	RefSeq	CDS	10562	11371	.	+	0	ID=ORF7; Parent=mRNA.7-3; Name=ORF7p
+SVV-Delta	RefSeq	CDS	10562	11257	.	+	0	ID=ORF7; Parent=mRNA.7-3; Name=ORF7p
 
 SVV-Delta	RefSeq	gene	12498	14024	.	+	.	ID=Gene9; Name=Gene9
 SVV-Delta	RefSeq	mRNA	12498	14024	.	+	.	ID=mRNA.9-1; Parent=Gene9
@@ -38,7 +38,7 @@ SVV-Delta	RefSeq	mRNA	13010	14024	.	+	.	ID=mRNA.9-3; Parent=Gene9
 SVV-Delta	RefSeq	exon	12498	14024	.	+	.	ID=exon1; Parent=mRNA.9-1
 SVV-Delta	RefSeq	exon	12855	14024	.	+	.	ID=exon1; Parent=mRNA.9-2
 SVV-Delta	RefSeq	exon	13010	14024	.	+	.	ID=exon1; Parent=mRNA.9-3
-SVV-Delta	RefSeq	CDS	12683	12945	.	+	0	ID=ORF9A; Parent=mRNA.9-1; Name=ORF9Ap
+SVV-Delta	RefSeq	CDS	12682	12945	.	+	0	ID=ORF9A; Parent=mRNA.9-1; Name=ORF9Ap
 SVV-Delta	RefSeq	CDS	13050	13955	.	+	0	ID=ORF9; Parent=mRNA.9-2; Name=ORF9p
 
 
